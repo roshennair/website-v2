@@ -1,9 +1,16 @@
 import { NextPage } from 'next';
+import Head from 'next/head';
+import Header from '../components/header';
 
 const Home: NextPage = () => {
 	return (
-		<h1>Home</h1>
-	)
+		<div>
+			<Head>
+				<title>Roshen Nair</title>
+			</Head>
+			<Header />
+		</div>
+	);
 }
 
 export default Home;
