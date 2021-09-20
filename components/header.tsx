@@ -6,11 +6,11 @@ const Header = () => {
 	const [showMenu, setShowMenu] = useState(false);
 
 	return (
-		<div className="flex justify-between mx-auto px-10 py-6">
+		<header className="flex justify-between mx-auto px-10 py-6">
 			<div>
 				<Link href="/">
-					<a>
-						<h1 className="text-lg font-bold">Roshen Nair</h1>
+					<a className="text-lg font-bold">
+						RN
 					</a>
 				</Link>
 			</div>
@@ -44,7 +44,7 @@ const Header = () => {
 					<li className="ml-10"><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
-		</div>
+		</header>
 	);
 }
 

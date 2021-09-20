@@ -1,15 +1,12 @@
 import { NextPage } from 'next';
-import Head from 'next/head';
-import Header from '../components/header';
+import Hero from '../components/hero';
+import Layout from '../components/layout';
 
 const Home: NextPage = () => {
 	return (
-		<div>
-			<Head>
-				<title>Roshen Nair</title>
-			</Head>
-			<Header />
-		</div>
+		<Layout>
+			<Hero />
+		</Layout>
 	);
 }
 
