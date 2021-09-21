@@ -1,9 +1,11 @@
 import Link from 'next/link';
 
-const Button = ({ text, href }: { text: string, href: string }) => {
+const Button = ({ text, href, newTab }: { text: string, href: string, newTab?: boolean }) => {
 	return (
-		<Link href={href}>
-			<a className="
+		<Link href={href} passHref={newTab || false}>
+			<a
+				target={newTab ? '_blank' : '_self'}
+				className="
 					border-2
 					border-solid
 					border-black
@@ -12,7 +14,8 @@ const Button = ({ text, href }: { text: string, href: string }) => {
 					rounded-md 
 					mt-5
 					mr-10
-				">
+				"
+			>
 				{text}
 			</a>
 		</Link>
