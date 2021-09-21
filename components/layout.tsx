@@ -8,7 +8,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 				<title>Roshen Nair</title>
 			</Head>
 			<Header />
-			<main>
+			<main className="max-w-5xl m-auto">
 				{children}
 			</main>
 		</>
