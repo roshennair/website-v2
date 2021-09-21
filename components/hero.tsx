@@ -10,7 +10,13 @@ const Hero = () => {
 				</h2>
 				<div className="mt-10">
 					<Button text="Projects" href="#projects" />
-					<Button text="Resume" href="/resume" />
+					<a
+						href="/docs/resume.pdf"
+						target="_blank"
+						className="border-2 border-solid border-black px-7 py-3 rounded-md mt-5 mr-10 cursor-pointer"
+					>
+						Resume
+					</a>
 				</div>
 			</div>
 			<div></div>
