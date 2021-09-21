@@ -11,9 +11,7 @@ const Button = ({ text, href, newTab }: { text: string, href: string, newTab?: b
 					border-black
 					px-7
 					py-3
-					rounded-md 
-					mt-5
-					mr-10
+					rounded-md
 				"
 			>
 				{text}
