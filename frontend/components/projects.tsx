@@ -15,7 +15,7 @@ const Projects = () => {
 				Projects
 			</h2>
 			<p className="pt-5 text-lg leading-8">
-				Here are some personal projects I've developed:
+				Here are some personal projects I&apos;ve developed:
 			</p>
 			<div className="my-8 grid grid-cols-1 md:grid-cols-2 gap-10">
 				<ProjectCard project={project} />
