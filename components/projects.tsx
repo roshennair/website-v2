@@ -10,7 +10,7 @@ const Projects = () => {
 	}
 
 	return (
-		<section className="py-10 px-8 sm:p-16">
+		<section id="projects" className="py-10 px-8 sm:p-16">
 			<h2 className="text-4xl font-bold">
 				Projects
 			</h2>

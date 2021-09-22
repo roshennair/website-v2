@@ -22,13 +22,19 @@ const Header = () => {
 							<nav>
 								<ul className="flex flex-col">
 									<li className="pt-5 pb-1 text-right">
-										<a className="block w-full" href="#experience" onClick={() => setShowMenu(false)}>Experience</a>
+										<Link href="/#experience">
+											<a className="block w-full" onClick={() => setShowMenu(false)}>Experience</a>
+										</Link>
 									</li>
 									<li className="py-1 text-right">
-										<a className="block w-full" href="#projects" onClick={() => setShowMenu(false)}>Projects</a>
+										<Link href="/#projects">
+											<a className="block w-full" onClick={() => setShowMenu(false)}>Projects</a>
+										</Link>
 									</li>
 									<li className="py-1 text-right">
-										<a className="block w-full" href="#contact" onClick={() => setShowMenu(false)}>Contact</a>
+										<Link href="/#contact">
+											<a className="block w-full" onClick={() => setShowMenu(false)}>Contact</a>
+										</Link>
 									</li>
 								</ul>
 							</nav>
@@ -39,9 +45,21 @@ const Header = () => {
 			</div>
 			<nav className="hidden md:block">
 				<ul className="flex">
-					<li className="ml-10"><a href="#experience">Experience</a></li>
-					<li className="ml-10"><a href="#projects">Projects</a></li>
-					<li className="ml-10"><a href="#contact">Contact</a></li>
+					<li className="ml-10">
+						<Link href="/#experience">
+							<a>Experience</a>
+						</Link>
+					</li>
+					<li className="ml-10">
+						<Link href="/#projects">
+							<a>Projects</a>
+						</Link>
+					</li>
+					<li className="ml-10">
+						<Link href="/#contact">
+							<a>Contact</a>
+						</Link>
+					</li>
 				</ul>
 			</nav>
 		</header>
