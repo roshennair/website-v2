@@ -7,7 +7,7 @@ const Experience = () => {
 				Experience
 			</h2>
 			<p className="pt-5 text-lg leading-8">
-				As someone with over <strong>2 years of development experience</strong>, I&apos;m experienced in both front-end and back-end development.
+				As someone with over <strong>2 years of development experience</strong>, I'm experienced in both front-end and back-end development.
 				My specialization is in <strong>full-stack web development</strong>.
 				Here are my favourite technologies to work with:
 			</p>
