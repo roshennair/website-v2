@@ -1,13 +1,6 @@
 import Image from 'next/image';
+import Project from 'types/project';
 import Button from './button';
-
-type Project = {
-	img: string;
-	title: string;
-	description: string;
-	demo: string;
-	code: string;
-}
 
 const ProjectCard = ({ project }: { project: Project }) => {
 	const { img, title, description, demo, code } = project;
