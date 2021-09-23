@@ -18,7 +18,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
 			"
 		>
 			<div className="relative h-52">
-				<Image src={img} layout="fill" objectFit="cover" />
+				<Image src={img} layout="fill" objectFit="cover" alt={title} />
 			</div>
 			<div className="flex flex-col p-6">
 				<div className="leading-8">
