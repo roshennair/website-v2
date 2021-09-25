@@ -12,7 +12,7 @@ const Contact = ({ socials }: { socials: Social[] }) => {
 			</p>
 			<div className="px-5 sm:px-0 py-10 grid gap-8 grid-cols-2 sm:grid-cols-3 md:grid-cols-6">
 				{
-					socials.map(social => <SocialLogo social={social} />)
+					socials.map(social => <SocialLogo key={social.id} social={social} />)
 				}
 			</div>
 		</section >

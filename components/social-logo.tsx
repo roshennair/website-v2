@@ -5,7 +5,7 @@ import Icon from './icons/icon';
 const SocialLogo = ({ social }: { social: Social }) => {
 	return (
 		<div className="w-full flex justify-center">
-			<a href={social.url} target="_blank">
+			<a href={social.url} rel="noreferrer" target="_blank">
 				<div
 					title={social.name}
 					className="
