@@ -1,4 +1,4 @@
-import Button from "./button";
+import ButtonLink from "./button-link";
 
 const Hero = () => {
 	return (
@@ -10,10 +10,10 @@ const Hero = () => {
 				</h2>
 				<div className="mt-10 flex">
 					<div className="mr-8">
-						<Button text="Projects" href="#projects" />
+						<ButtonLink text="Projects" href="#projects" />
 					</div>
 					<div>
-						<Button text="Resume" href="/docs/resume.pdf" newTab />
+						<ButtonLink text="Resume" href="/docs/resume.pdf" newTab />
 					</div>
 				</div>
 			</div>

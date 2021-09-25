@@ -6,4 +6,25 @@
 	*, *::before, *::after {
 		@apply box-border;
 	}
+
+	.btn {
+		@apply 
+			px-7
+			py-3
+			rounded
+			border-2
+			border-solid
+			border-black
+			bg-white
+			hover:bg-black
+			hover:text-white
+			cursor-pointer
+			duration-200;
+	}
+
+	.icon {
+		@apply
+			h-10
+			w-10
+	}
 }

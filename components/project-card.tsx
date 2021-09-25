@@ -1,21 +1,13 @@
 import Image from 'next/image';
 import Project from 'types/project';
-import Button from './button';
+import ButtonLink from './button-link';
 
 const ProjectCard = ({ project }: { project: Project }) => {
 	const { img, title, description, demo, code } = project;
 
 	return (
 		<div
-			className="
-				rounded-xl
-				shadow-md
-				overflow-hidden
-				hover:scale-105
-				hover:shadow-xl
-				transition
-				duration-150
-			"
+			className="rounded shadow-md overflow-hidden hover:shadow-xl transition duration-200"
 		>
 			<div className="relative h-52">
 				<Image src={img} layout="fill" objectFit="cover" alt={title} />
@@ -27,10 +19,10 @@ const ProjectCard = ({ project }: { project: Project }) => {
 				</div>
 				<div className="flex mt-8 mb-3">
 					<div className="mr-4">
-						<Button text="Demo" href={demo} newTab />
+						<ButtonLink text="Demo" href={demo} newTab />
 					</div>
 					<div>
-						<Button text="Code" href={code} newTab />
+						<ButtonLink text="Code" href={code} newTab />
 					</div>
 				</div>
 			</div>

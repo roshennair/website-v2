@@ -2,14 +2,6 @@ import Project from "types/project";
 import ProjectCard from "./project-card";
 
 const Projects = ({ projects }: { projects: Project[] }) => {
-	// const project = {
-	// 	img: '/images/node.png',
-	// 	title: 'Project 1',
-	// 	description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum blanditiis architecto ab deserunt dolorum earum sed in sunt ullam error?',
-	// 	demo: 'https://github.com/roshennair',
-	// 	code: 'https://github.com/roshennair'
-	// }
-
 	return (
 		<section id="projects" className="py-10 px-8 sm:p-16">
 			<h2 className="text-4xl font-bold">
