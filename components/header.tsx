@@ -6,7 +6,7 @@ const Header = () => {
 	const [showMenu, setShowMenu] = useState(false);
 
 	return (
-		<header className="flex justify-between mx-auto px-10 py-6">
+		<header className="flex justify-between px-10 py-6">
 			<div>
 				<Link href="/">
 					<a className="text-lg font-bold">
