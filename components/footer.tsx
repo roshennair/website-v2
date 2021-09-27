@@ -4,6 +4,7 @@ const Footer = () => {
 			<a
 				href="https://github.com/roshennair/website-v2"
 				target="_blank"
+				rel="noreferrer"
 			>
 				Copyright &copy; 2021 Roshen Nair.
 			</a>
