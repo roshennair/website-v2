@@ -12,12 +12,12 @@ const Experience = () => {
 				Here are my favourite technologies to work with:
 			</p>
 			<div className="px-5 sm:px-0 py-10 grid gap-8 grid-cols-2 sm:grid-cols-3 md:grid-cols-6">
-				<TechLogo title="TypeScript" src="/images/ts.png" />
-				<TechLogo title="React" src="/images/react.png" />
-				<TechLogo title="Tailwind CSS" src="/images/tailwind.png" />
-				<TechLogo title="Firebase" src="/images/firebase.png" />
-				<TechLogo title="Node.js" src="/images/node.png" />
-				<TechLogo title="PostgreSQL" src="/images/postgres.png" />
+				<TechLogo title="TypeScript" src="/images/ts.svg" />
+				<TechLogo title="React" src="/images/react.svg" />
+				<TechLogo title="Tailwind CSS" src="/images/tailwind.svg" />
+				<TechLogo title="Firebase" src="/images/firebase.svg" />
+				<TechLogo title="Node.js" src="/images/node.svg" />
+				<TechLogo title="PostgreSQL" src="/images/postgres.svg" />
 			</div>
 		</section>
 	)
