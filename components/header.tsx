@@ -9,7 +9,7 @@ const Header = () => {
 		<header className="flex justify-between px-10 py-6">
 			<div>
 				<Link href="/">
-					<a className="text-lg font-bold">
+					<a className="text-2xl font-bold">
 						RN
 					</a>
 				</Link>
@@ -17,21 +17,21 @@ const Header = () => {
 			<div className="md:hidden">
 				{showMenu
 					? (
-						<div className="flex flex-col items-end">
-							<XIcon className="h-6 cursor-pointer" onClick={() => setShowMenu(false)} />
-							<nav>
+						<div className="flex flex-col items-end relative">
+							<XIcon className="h-8 cursor-pointer" onClick={() => setShowMenu(false)} />
+							<nav className="absolute p-8 top-8 right-1 bg-white rounded shadow-lg">
 								<ul className="flex flex-col">
-									<li className="pt-5 pb-1 text-right">
+									<li className="pb-4">
 										<Link href="/#experience">
 											<a className="block w-full" onClick={() => setShowMenu(false)}>Experience</a>
 										</Link>
 									</li>
-									<li className="py-1 text-right">
+									<li className="pb-4">
 										<Link href="/#projects">
 											<a className="block w-full" onClick={() => setShowMenu(false)}>Projects</a>
 										</Link>
 									</li>
-									<li className="py-1 text-right">
+									<li>
 										<Link href="/#contact">
 											<a className="block w-full" onClick={() => setShowMenu(false)}>Contact</a>
 										</Link>
@@ -40,7 +40,7 @@ const Header = () => {
 							</nav>
 						</div>
 					)
-					: <MenuIcon className="h-6 cursor-pointer" onClick={() => setShowMenu(true)} />
+					: <MenuIcon className="h-8 cursor-pointer" onClick={() => setShowMenu(true)} />
 				}
 			</div>
 			<nav className="hidden md:block">
