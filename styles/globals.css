@@ -6,7 +6,9 @@
 	*, *::before, *::after {
 		@apply box-border;
 	}
+}
 
+@layer components {
 	.btn {
 		@apply 
 			px-7
