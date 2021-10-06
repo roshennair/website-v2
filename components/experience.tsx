@@ -2,7 +2,7 @@ import TechLogo from "./tech-logo";
 
 const Experience = () => {
 	return (
-		<section id="experience" className="p-10 sm:p-16">
+		<section id="experience" className="section ">
 			<h2 className="text-4xl font-bold">
 				Experience
 			</h2>

@@ -25,6 +25,17 @@
 	.icon {
 		@apply
 			h-10
-			w-10
+			w-10;
+	}
+
+	.section {
+		@apply
+			px-10
+			sm:px-16
+			py-28
+			flex
+			flex-col
+			justify-center
+			items-center;
 	}
 }

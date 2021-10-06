@@ -2,7 +2,7 @@ import ButtonLink from "./button-link";
 
 const Hero = () => {
 	return (
-		<section className="p-10 sm:p-16">
+		<section id="hero" className="section h-screen">
 			<div>
 				<h1 className="text-6xl font-bold">Roshen Nair</h1>
 				<h2 className="text-2xl font-medium mt-6">
@@ -17,7 +17,6 @@ const Hero = () => {
 					</div>
 				</div>
 			</div>
-			<div></div>
 		</section>
 	)
 }

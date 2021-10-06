@@ -3,7 +3,7 @@ import ProjectCard from "./project-card";
 
 const Projects = ({ projects }: { projects: Project[] }) => {
 	return (
-		<section id="projects" className="py-10 px-8 sm:p-16">
+		<section id="projects" className="section">
 			<h2 className="text-4xl font-bold">
 				Projects
 			</h2>

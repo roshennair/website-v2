@@ -3,7 +3,7 @@ import SocialLogo from "./social-logo";
 
 const Contact = ({ socials }: { socials: Social[] }) => {
 	return (
-		<section id="contact" className="p-10 sm:p-16">
+		<section id="contact" className="section">
 			<h2 className="text-4xl font-bold">
 				Contact
 			</h2>
